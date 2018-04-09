@@ -45,7 +45,7 @@ const xbox = {
 
 const blender = {
     name: "Blender",
-    locaiton: "kitchen",
+    location: "kitchen",
     description: "This is the blender I stole from mom and never use"
 }
 
