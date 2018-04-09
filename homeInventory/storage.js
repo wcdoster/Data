@@ -72,6 +72,8 @@ HomeInventoryDatabase.furniture.push(couch, bed, desk, kitchenTable);
 HomeInventoryDatabase.electronics.push(tv, xbox, blender);
 HomeInventoryDatabase.crafts.push(fryPan, chefKnife, cuttingBoard);
 
+console.log(HomeInventoryDatabase);
+
 const saveDatabase = (databaseObject, localStorageKey) => {
     //Turn my database it into a JSON string
     const stringifiedDatabase = JSON.stringify(databaseObject);
